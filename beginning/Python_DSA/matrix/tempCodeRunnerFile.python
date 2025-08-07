@@ -1,0 +1,5 @@
+x = input(int())
+
+for i in range(x):
+    print(" " * (x-1))
+    print("*" * i)
