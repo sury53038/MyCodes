@@ -70,8 +70,6 @@ vector<vector<int>> levelOrder(TreeNode* root) {
         
 }
 
-//level-order zig-zag traversal
-
 vector<vector<int>> zigzagLevelOrder(TreeNode* root) {
     queue<TreeNode*> q1;
     queue<TreeNode*> q2;
